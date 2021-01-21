@@ -1,0 +1,27 @@
+{
+  "name": "pr-commit-limit",
+  "version": "1.0.0",
+  "description": "A GitHub action that checks and limits the allowed commits in a PR.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "ncc build index.js -o dist --source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiboonn/pr-commit-limit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tiboonn/pr-commit-limit/issues"
+  },
+  "homepage": "https://github.com/Tiboonn/pr-commit-limit#readme",
+  "dependencies": {
+    "@actions/core": "^1.1.1",
+    "@actions/github": "^4.0.0",
+    "@octokit/action": "^3.0.5"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3"
+  }
+}

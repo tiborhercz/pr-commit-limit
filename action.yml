@@ -1,0 +1,13 @@
+name: 'PR Commit limit'
+description: 'Check the commit count in a PR'
+author: 'Tiboonn'
+inputs:
+  amount:
+    description: 'Amount of allowed commits in a PR'
+    required: true
+runs:
+  using: node12
+  main: dist/index.js
+branding:
+  icon: 'check'
+  color: 'green'
