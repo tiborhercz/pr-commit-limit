@@ -6,7 +6,7 @@ A GitHub action that checks and limits the allowed commits in a PR.
 
 ```yml
 steps:
-  - uses: 'Tiboonn/testing-branch@main'
+  - uses: 'tiborhercz/testing-branch@main'
   with:
     amount: '1'
 ```
