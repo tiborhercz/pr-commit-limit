@@ -1,6 +1,6 @@
 name: 'PR Commit limit'
 description: 'Check the commit count in a PR'
-author: 'Tiboonn'
+author: 'tiborhercz'
 inputs:
   amount:
     description: 'Amount of allowed commits in a PR'
